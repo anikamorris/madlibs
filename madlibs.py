@@ -27,14 +27,14 @@ def getWords():
         noun = user_input("Enter another noun: ")
         blanks["noun"].append(noun)
 
-#def populateMadLibs():
-#    print("I just " + blanks["past tense verb"][0] + " a DNA test, turns out I'm 100% that "
-#         + blanks["occupation"][0]) + "/n Even when I'm " + blanks["verb ending in -ing"][1] + """ crazy /n 
-#         Yeah, I got """ + blanks["noun"][2] + " problems, that's the human in me /n Bling bling, then I "
-#         + blanks["verb"][0] + " 'em, that's the " + blanks["noun"][0] + " in me /n You coulda had a "
-#         + blanks["adjective"][0] + blanks["noun"][3] + ", non-commital /n Help you with your "
-#         + blanks["noun"][1] + """ just a little /n You're supposed to hold me down, but you're holding me back
-#         /n And that's the sound of me not """ + blanks["verb ending in -ing"][0])
+def populateMadLibs():
+    print(" I just " + blanks["past tense verb"][0] + " a DNA test, turns out I'm 100% that "
+         + blanks["occupation"][0] + "\n Even when I'm " + blanks["verb ending in -ing"][1] + """ crazy  
+ Yeah, I got """ + blanks["noun"][2] + " problems, that's the human in me \n Bling bling, then I "
+         + blanks["verb"][0] + " 'em, that's the " + blanks["noun"][0] + " in me \n You coulda had a "
+         + blanks["adjective"][0] + " " + blanks["noun"][3] + ", non-commital \n Help you with your "
+         + blanks["noun"][1] + """ just a little \n You're supposed to hold me down, but you're holding me back
+ And that's the sound of me not """ + blanks["verb ending in -ing"][0] + " you back")
     
 getWords()
-#populateMadLibs()
+populateMadLibs()
