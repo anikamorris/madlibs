@@ -7,7 +7,7 @@ def user_input(prompt):
     user_input = input(prompt)
     return user_input
 
-def getWords():
+def get_words():
     # ask user for word that matches key, then append value
     
     for k, v in blanks.items():
@@ -27,7 +27,7 @@ def getWords():
         noun = user_input("Enter another noun: ")
         blanks["noun"].append(noun)
 
-def populateMadLibs():
+def populate_mad_libs():
     print(" I just " + blanks["past tense verb"][0] + " a DNA test, turns out I'm 100% that "
          + blanks["occupation"][0] + "\n Even when I'm " + blanks["verb ending in -ing"][1] + """ crazy  
  Yeah, I got """ + blanks["noun"][2] + " problems, that's the human in me \n Bling bling, then I "
@@ -36,5 +36,5 @@ def populateMadLibs():
          + blanks["noun"][1] + """ just a little \n You're supposed to hold me down, but you're holding me back
  And that's the sound of me not """ + blanks["verb ending in -ing"][0] + " you back")
     
-getWords()
-populateMadLibs()
+get_words()
+populate_mad_libs()
