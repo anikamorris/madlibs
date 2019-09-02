@@ -1,5 +1,5 @@
 ## Mad Libs
-This extremely basic mad libs project allows you to follow your dreams of replacing random words in the first verse of "Truth Hurts" by Lizzo mad libs-style.
+This extremely basic mad libs project allows you to follow your dreams of replacing random words mad libs-style in the first verse of "Truth Hurts" by Lizzo.
 
 ## Screenshots
 <img width="400" alt="Screen Shot 2019-09-02 at 2 46 07 PM" src="https://user-images.githubusercontent.com/29615757/64134314-9da06f80-cd91-11e9-9b2b-8bcb7e43346a.png">
