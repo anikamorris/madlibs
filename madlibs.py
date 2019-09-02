@@ -1,3 +1,4 @@
+# creates dictionary to hold words
 blanks = {"past tense verb": [], "occupation": [], "verb ending in -ing": [], "noun": [], "verb": [], 
             "adjective": []}
 
@@ -7,6 +8,7 @@ def user_input(prompt):
     user_input = input(prompt)
     return user_input
 
+# stores user responses in blanks dictionary
 def get_words():
     # ask user for word that matches key, then append value
     
@@ -19,14 +21,17 @@ def get_words():
             response = user_input("Enter a " + k + ": ")
             v.append(response)
 
-    # gets duplicate words
+    # gets duplicate verbs
     verb2 = user_input("Enter another verb ending in -ing: ")
     blanks["verb ending in -ing"].append(verb2)
 
+    # gets last 3 nounds
     for i in range(3):
         noun = user_input("Enter another noun: ")
         blanks["noun"].append(noun)
 
+# prints completed mad lib
+# Lizzo. Lyrics to "Truth Hurts" Genius, 2017, https://genius.com/Lizzo-truth-hurts-lyrics
 def populate_mad_libs():
     print(" I just " + blanks["past tense verb"][0] + " a DNA test, turns out I'm 100% that "
          + blanks["occupation"][0] + "\n Even when I'm " + blanks["verb ending in -ing"][1] + """ crazy  
