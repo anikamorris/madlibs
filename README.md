@@ -9,8 +9,8 @@ This extremely basic mad libs project allows you to follow your dreams of replac
 - [VS Code](https://code.visualstudio.com/)
 
 ## Features
-Runs in Terminal
-Words entered by the user will populate the first verse of "Truth Hurts" by Lizzo
+* Runs in Terminal
+* Words entered by the user will populate the first verse of "Truth Hurts" by Lizzo
 
 ## Installation
 Run 
