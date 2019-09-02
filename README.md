@@ -13,7 +13,7 @@ This extremely basic mad libs project allows you to follow your dreams of replac
 * Words entered by the user will populate the first verse of "Truth Hurts" by Lizzo
 
 ## Installation
-Run 
+Clone or download this repo, then run:
 ```
 python3 ./madlibs.py
 ```
