@@ -25,7 +25,7 @@ def get_words():
     verb2 = user_input("Enter another verb ending in -ing: ")
     blanks["verb ending in -ing"].append(verb2)
 
-    # gets last 3 nounds
+    # gets last 3 nouns 
     for i in range(3):
         noun = user_input("Enter another noun: ")
         blanks["noun"].append(noun)
